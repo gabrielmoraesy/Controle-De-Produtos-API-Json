@@ -1,0 +1,37 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin: 1rem 0rem;
+}
+
+.titulo {
+    margin-left: 2.5rem;
+    font-size: 4rem;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .header {
+        display: flex;
+        justify-content: center;
+        margin: 1rem;
+    }
+
+   .titulo {
+        margin-left: 0rem;
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 900px) {
+    .header {
+        display: flex;
+        justify-content: center;
+        margin: 1rem;
+    }
+    
+    .titulo {
+        font-size: 3.5rem;
+        margin-left: 0rem;
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "name": "Lápis",
+      "price": "2,99",
+      "id": 1
+    },
+    {
+      "name": "Borracha",
+      "price": "5,99",
+      "id": 2
+    },
+    {
+      "name": "Estojo",
+      "price": "10,90",
+      "id": 3
+    },
+    {
+      "name": "Mochila",
+      "price": "149,90",
+      "id": 4
+    },
+    {
+      "name": "Lancheira",
+      "price": "59,90",
+      "id": 5
+    }
+  ]
+}

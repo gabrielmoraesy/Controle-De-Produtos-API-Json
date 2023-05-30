@@ -1,0 +1,61 @@
+.notification {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    
+    background-color: #fff;
+    color: #fff;
+    width: 320px;
+    height: 110px;
+    border-radius: 20px;
+    font-size: 4.5rem;
+    transition: .3s;
+}
+
+.title-notification {
+    flex: 1;
+    padding: 1rem;
+
+    color: #fff;    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.yellow {
+    background-color: #FFC26F;
+}
+
+.red {
+    background-color: red;
+}
+
+.icons-notification {
+    font-size: 2.5rem;
+}
+
+.text-notification {
+    flex: 2;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: #212A3E;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .notification {    
+        position: absolute;
+        bottom: 3%;
+        left: 3%;
+        
+        width: 200px;
+        height: 130px;
+    }
+}
+
