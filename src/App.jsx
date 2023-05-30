@@ -13,7 +13,7 @@ import Notification from './components/Notification';
 import { useFetch } from './hooks/useFetch';
 
 function App() {
-  const url = 'http://localhost:3000/products';
+  const url = 'https://api-json-gabrielmoraesy.vercel.app/products';
   const { data: products, httpConfig, error } = useFetch(url);
 
   const [notification, setNotification] = useState({ display: 'none', title: null, text: null });
