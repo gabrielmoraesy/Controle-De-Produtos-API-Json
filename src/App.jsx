@@ -61,7 +61,7 @@ function App() {
         title: '',
         text: ''
       })
-    }, 10000)
+    }, 2000)
   }
 
   const onlyNumbers = (evt) => {
