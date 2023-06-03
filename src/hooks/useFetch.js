@@ -23,11 +23,10 @@ export const useFetch = (url) => {
                 console.log(e.message)
                 setError('Houve algum erro ao carregar os dados!')
             }
-
         }
 
         fetchData();
-    }, [url, callFetch])
+    }, [url, callFetch, data])
 
     const httpConfig = (data, method, id) => {
         if (method === 'POST') {
